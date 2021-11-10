@@ -35,3 +35,9 @@ vue invoke <your-plugin-name>
 #卸载插件：
 npm uninstall vue-cli-plugin-axios
 ```
+
+其实不用这样做，直接在node_modules 中的源码中修改就好
+```shell
+vue add vue-cli-plugin-cesium
+```
+安装cesium 1.68
